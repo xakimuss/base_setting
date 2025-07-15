@@ -1,0 +1,11 @@
+---
+- name: Базовая настройка серверов
+  hosts: root
+  become: true
+  roles:
+    - base
+#- name: Установка Gensyn на соответствующие хосты
+#  hosts: gensyn
+#  become: true
+#  roles:
+#    - gensyn
